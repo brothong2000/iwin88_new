@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("./img/logo/bg-1.png");
+  height:100%; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.A{
+margin: auto;
+}
+.logo img{
+    width: 50%; 
+}
+.B ul{
+    list-style-type: none;
+}
+.B ul li{
+     display:inline-block;
+}
+.B ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+.B a{
+    color: white;
+}
+.B ul li:hover a{
+    color: red;
+}
+.menubar{
+  font-size:30px;
+  cursor:pointer;
+  color:white;
+  display: none;
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index:1;
+  top: 0;
+  right: -50px;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.overlay-content {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  margin-top: 30px;
+}
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus {
+  color:red;
+}
+.overlay .closebtn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 40px;
+}
+
+/* /// */
+ .container{
+  background-color:rgb(20, 20, 20);
+ } 
+ .img img{
+  width: 100%;
+ }
+.btn_img img{
+ width: 20%;
+}
+p{
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.text p{
+  font-size: 25px;
+  color: red;
+}
+.dot ul {
+  color: white;
+  margin-left: 20px;
+}
+.txt p{
+  color: pink;
+  font-size: 28px;
+}
+.tet p{
+  color:red;
+  font-size:28px;
+}
+.px-5 p{
+  padding-left: 20px;
+}
+.bar{
+  position: -webkit-sticky;
+ position: fixed;
+ left: 0;
+  z-index: 1;
+  top:0;
+}
+.container{
+  margin-top: 50px;
+  opacity: .9;
+}
+.cdn{
+  overflow: hidden;
+}
